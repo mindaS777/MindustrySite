@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'FontMindustry';
+    src: url('font.ttf');
+    }
+  
+    body, a, h1, h2, h3, h4, h5, h6, p, td, div {
+    color: white;
+    font-family: 'FontMindustry', sans-serif;
+    }  
+  
+    p{
+    text-indent: 40px;
+	}
+  
+    a {
+    color: #ffd27e; text-decoration: none;
+    }
+  
+    body {
+    margin: 0;
+	padding-left: 40px;
+    padding-right: 40px;
+    }
+
+    .header-row{
+    position: relative;
+    display:flex;
+    align-items:center;
+	}
+
+	.header-row h1{
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+    margin:0;
+	}
+
+    hr {
+    border: none;
+    height: 3px;
+    background: #ffd27e;
+
+    width: 100%;
+    margin: 0px;
+    margin-top: 10px;
+	margin-bottom: 40px;
+    }
+	
+	.no-indent{
+    text-indent: 0;
+	}
+	
+	td{
+    vertical-align: top;
+	}
+	
+	.content{
+    display:flex;
+    gap:30px;
+    align-items:flex-start;
+    justify-content:left;
+	}
+	
+	table{
+	flex-shrink: 0;
+    border-collapse:collapse;
+    background:rgba(20,24,30,0.9);
+    border:3px solid #ffd27e;
+	}
+
+	tr:hover td{
+    background:rgba(70,75,90,0.9);
+	}
+
+
+
+
+	
+	
